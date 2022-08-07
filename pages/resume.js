@@ -40,7 +40,7 @@ const Resume = () => {
                 <motion.div  className = "scroll-bar" style = {{scaleX: scrollYProgress, backgroundColor: scrollColor}} />
                 <Box mt = {20}>
                     <Box>
-                        <Heading as = "h1" fontFamily = "Outfit Medium" fontWeight = "normal" variant = "page-title" mb = {1}>
+                        <Heading as = "h1" fontFamily = "Outfit-Medium" fontWeight = "normal" variant = "page-title" mb = {1}>
                             Resume
                         </Heading>
                         <hr />
