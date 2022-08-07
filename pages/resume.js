@@ -29,13 +29,15 @@ const Resume = () => {
             }
         }
     `
+
+
     const SectionBox = useColorModeValue(SectionBoxLight, SectionBoxDark)
     const scrollColor = useColorModeValue("#B65FCF", "#126180")
 
     return(
         <Layout>
             <Container maxW = "container.md">
-                <motion.div style = {{top: '6%', left: '0', right: '0', scaleX: scrollYProgress, height: '10px', position: 'fixed', transformOrigin: '0%', backgroundColor: scrollColor}} />
+                <motion.div  className = "scroll-bar" style = {{scaleX: scrollYProgress, backgroundColor: scrollColor}} />
                 <Box mt = {20}>
                     <Box>
                         <Heading as = "h1" fontFamily = "Outfit Medium" fontWeight = "normal" variant = "page-title" mb = {1}>

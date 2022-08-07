@@ -4,6 +4,7 @@ import theme from "../lib/theme"
 import Fonts from "../components/fonts"
 import { GridItemStyle } from "../components/fave-grid"
 import { AnimatePresence } from "../node_modules/framer-motion"
+import "./resume.css"
 
 const Website = ({Component, pageProps, router}) => {
     return(
