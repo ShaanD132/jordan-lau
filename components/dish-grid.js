@@ -3,10 +3,8 @@ import NextLink from "next/link"
 import {Box, useColorModeValue, Badge, Text, LinkBox} from "@chakra-ui/react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircle } from "@fortawesome/free-solid-svg-icons"
-import { mode } from "@chakra-ui/theme-tools"
 import styled from "@emotion/styled"
 
-const DishItemDotColor = mode("#3377ff", "#00256e")
 const MainBox = styled(Box)`
 transition: all 0.3s ease;
 
@@ -20,7 +18,7 @@ const DishGridItem = ({children, id, src, alt, type, title, rating, ingredients}
         <Box>
                 <NextLink href = {`/dishes/${id}`}>
                     <LinkBox cursor = "pointer">
-                        <MainBox maxW='lg' borderWidth='1px' borderRadius='lg' overflow='hidden' bg = {useColorModeValue("#2C3539", "white")}>
+                        <MainBox maxW='lg' borderWidth='1px' borderRadius='lg' overflow='hidden' bg = {useColorModeValue("#2C3539", "#F3F2ED")}>
                                 <Image src = {src} alt = {alt} />
 
                                 <Box px = "6" mt = "6" mb = "6">
@@ -58,7 +56,7 @@ const DishGridItem = ({children, id, src, alt, type, title, rating, ingredients}
                                             .map((_, i) => (
                                             <Text
                                                 key={i}
-                                                color = {i < rating ? DishItemDotColor : 'gray.300'}
+                                                color = {i < rating ? "#004de4" : 'gray.300'}
                                                 pr = {0.5}
                                             >
                                                 <FontAwesomeIcon icon = {faCircle} />

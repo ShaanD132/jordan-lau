@@ -14,15 +14,15 @@ import Layout from "../components/layouts/article"
 
 const Page = () => {
     const SocialDark = styled.a`
-    transition: all 0.5s ease-in-out;
+    transition: all 0.3s ease;
     &:hover{
-        transform: scale(1.2);
+        transform: scale(1.3);
         color: #C6E6FB;
     }`
     const SocialLight = styled.a`
-    transition: all 0.5s ease-in-out;
+    transition: all 0.3s ease;
     &:hover{
-        transform: scale(1.2);
+        transform: scale(1.3);
         color: #b2d8d8;
     }`
 
