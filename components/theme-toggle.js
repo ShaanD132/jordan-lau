@@ -14,7 +14,7 @@ const ThemeToggle = () => {
             key={useColorModeValue('light', 'dark')}
             initial={{ y:0, rotate: -180, opacity: 0 }}
             animate={{ rotate: -360, opacity: 1 }}
-            exit={{ rotate: 0, opacity: 0 }}
+            exit={{ rotate: -180, opacity: 0 }}
             transition={{ duration: 0.2 }}
             >
                 <IconButton
@@ -24,6 +24,7 @@ const ThemeToggle = () => {
                     icon={useColorModeValue(<MoonIcon />, <SunIcon />)}
                     onClick={toggleColorMode}
                     _hover={{ bg: ThemeButtonColors }}
+                    my = {1}
                 />
             </motion.div>
       </AnimatePresence>

@@ -2,9 +2,11 @@ import { Box, Container, Heading, useColorModeValue } from "@chakra-ui/react"
 import Layout from "../components/layouts/article"
 import Section from "../components/layouts/section"
 import styled from "@emotion/styled"
+import  { motion, useScroll } from "../node_modules/framer-motion"
 
 const Resume = () => {
 
+    const { scrollYProgress } = useScroll();
 
     const SectionBoxLight = styled(Box)`
         .resume-box {
@@ -27,12 +29,14 @@ const Resume = () => {
             }
         }
     `
-
     const SectionBox = useColorModeValue(SectionBoxLight, SectionBoxDark)
+    const scrollColor = useColorModeValue("#B65FCF", "#126180")
+
     return(
         <Layout>
             <Container maxW = "container.md">
-                <Box mt = {10}>
+                <motion.div style = {{top: '6%', left: '0', right: '0', scaleX: scrollYProgress, height: '10px', position: 'fixed', transformOrigin: '0%', backgroundColor: scrollColor}} />
+                <Box mt = {20}>
                     <Box>
                         <Heading as = "h1" fontFamily = "Outfit Medium" fontWeight = "normal" variant = "page-title" mb = {1}>
                             Resume
@@ -40,7 +44,7 @@ const Resume = () => {
                         <hr />
                     </Box>
 
-                    <Section delay = {0.1}>
+                    <Section delay = {0.5}>
                         <SectionBox mt = {5} px = {7} >
                             <Box className = "resume-box">
                                 <Heading as = "h2" variant = "sub-title" fontWeight = "normal">
@@ -57,7 +61,7 @@ const Resume = () => {
                         </SectionBox>
                     </Section>
 
-                    <Section delay = {0.1}>
+                    <Section delay = {0.6}>
                         <SectionBox mt = {12} px = {7}>
                             <Box className = "resume-box">
                                 <Heading as = "h2" variant = "sub-title" fontWeight = "normal">
@@ -73,7 +77,7 @@ const Resume = () => {
                         </SectionBox>
                     </Section>
 
-                    <Section delay = {0.2}>
+                    <Section delay = {0.7}>
                         <SectionBox mt = {12} px = {7}>
                             <Box className = "resume-box">
                                 <Heading as = "h2" variant = "sub-title" fontWeight = "normal">
@@ -91,7 +95,7 @@ const Resume = () => {
                         </SectionBox>
                     </Section>
 
-                    <Section delay = {0.3}>
+                    <Section delay = {0.8}>
                         <SectionBox mt = {12} px = {7}>
                             <Box className = "resume-box">
                                 <Heading as = "h2" variant = "sub-title" fontWeight = "normal">
@@ -107,7 +111,7 @@ const Resume = () => {
                         </SectionBox>
                     </Section>
 
-                    <Section delay = {0.4}>
+                    <Section delay = {0.9}>
                         <SectionBox mt = {12} px = {7}>
                             <Box className = "resume-box">
                                 <Heading as = "h2" variant = "sub-title" fontWeight = "normal">

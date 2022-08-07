@@ -21,31 +21,31 @@ const Dishes = () => {
                             </DishGridItem>
                         </Section>
 
-                        <Section delay = {0.2}>
+                        <Section delay = {0.1}>
                             <DishGridItem src = {Couscous} id = "couscous" type = "Mediterranean " title = "Couscous Salad" rating = {4} ingredients = "Couscous, Tomato, Lettuce">
                                 Advanced
                             </DishGridItem>
                         </Section>
 
-                        <Section delay = {0.2}>
+                        <Section delay = {0.1}>
                             <DishGridItem src = {Pasta} id = "spaghetti" type = "Italian" title = "Spaghetti Bolognese" rating = {4} ingredients = "Spaghetti, Pasta Sauce, Barley">
                                 Advanced
                             </DishGridItem>
                         </Section>
 
-                        <Section delay = {0.3}>
+                        <Section delay = {0.5}>
                             <DishGridItem src = {Butter} id = "butter-chicken" type = "Indian" title = "Butter Chicken" rating = {4} ingredients = "Chicken Tenders, Tomato, Parsley">
                                 Advanced
                             </DishGridItem>
                         </Section>
 
-                        <Section delay = {0.3}>
+                        <Section delay = {0.5}>
                             <DishGridItem src = {Beef} id = "beef-wellington" type = "English" title = "Beef Wellington" rating = {3} ingredients = "Beef, Pepper, Crisp">
                                 Expert
                             </DishGridItem>
                         </Section>
 
-                        <Section delay = {0.4}>
+                        <Section delay = {0.7}>
                             <DishGridItem src = {Rice} id = "fried-rice" type = "Chinese" title = "Fried Rice" rating = {5} ingredients = "Rice, Chicken Breast, Soy Sauce">
                                 Amateur
                             </DishGridItem>

@@ -3,9 +3,9 @@ import Head from "next/head"
 import { GridItemStyle } from  "../fave-grid"
 
 const variants = {
-    hidden: {opacity: 0, x: 0, y: 30},
-    enter: { opacity: 1, x: 0, y: 0},
-    exit: { opacity: 1, x:0, y: 30}
+    hidden: {opacity: 0, x: 2000, y:0 },
+    enter: { opacity: 1, x: 0, y:0},
+    exit: { opacity: 1, x: -2000, y:0}
 }
 
 const Layout = ({ children, title }) =>  (
