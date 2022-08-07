@@ -20,7 +20,7 @@ const DishGridItem = ({children, id, src, alt, type, title, rating, ingredients}
                 <NextLink href = {`/dishes/${id}`}>
                     <LinkBox cursor = "pointer">
                         <MainBox maxW='lg' borderWidth='1px' borderRadius='lg' overflow='hidden' bg = {useColorModeValue("#ffced6", "#F3F2ED")}>
-                                <Image src = {src} alt = {alt} />
+                                <Image src = {src} alt = {alt} placeholder = "blur" />
 
                                 <Box px = "6" mt = "6" mb = "6">
                                     <Box display='flex' alignItems='baseline'>
