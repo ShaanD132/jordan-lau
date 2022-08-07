@@ -32,7 +32,7 @@ const Page = () => {
             <Container maxW = "container.lg">
                 <Box mt = {14}>
                     <Section delay = {0.1}>
-                        <Heading as = "h2"  fontSize = {50} variant = "page-title">
+                        <Heading as = "h1"  variant = "section-title">
                             Bio
                         </Heading>
 
@@ -50,14 +50,14 @@ const Page = () => {
 
                     <Section delay = {0.2}>
                         <Box mt = {20}>
-                            <Heading as = "h1" fontSize = {50} variant = "section-title">
+                            <Heading as = "h1" variant = "section-title">
                                 My Links
                             </Heading>
                             <Box align = "center">
                                 <Flex  mt = {12} maxW = "container.md" fontSize = {{base: 40, md: 45}} px = {{base: 10, lg: 0}}>
                                     <SocialLink target = "__blank" href = "https://www.linkedin.com/in/jordan-gabriel-lau-hiu-hoong-330235232/"><FontAwesomeIcon  icon = {faLinkedin} /></SocialLink>
                                     <Spacer/>
-                                    <SocialLink target = "__blank" href = "https://www.instagram.com/this_final/"><FontAwesomeIcon icon = {faInstagram} /></SocialLink>
+                                    <SocialLink target = "__blank" href = "https://www.instagram.com/this_final/">  <FontAwesomeIcon icon = {faInstagram} />  </SocialLink>
                                     <Spacer/>
                                     <Link href = "/email"><SocialLink><FontAwesomeIcon icon = {faEnvelopeOpen} /></SocialLink></Link>
                                 </Flex>
@@ -66,12 +66,12 @@ const Page = () => {
                     </Section>
 
                     <Section delay = {0.3}>
-                        <Box mt = {28}>
-                            <Heading as = "h1" fontSize = {50} variant = "section-title">
+                        <Box mt = {40}>
+                            <Heading as = "h1" variant = "section-title">
                                 My Best Dishes
                             </Heading>
                             <SimpleGrid columns = {[1, null, 2]} spacing = {{base: "50px", md: "50px"}}  mt = {10} alignItems = "center">
-                                <WorkGridItem id = "pasta" title = "Special Spaghetti" thumbnail = {Pasta}>
+                                <WorkGridItem id = "pasta" title = "Spaghetti Bolognese" thumbnail = {Pasta}>
                                     Sample Text, I love cooking, this dish is pretty tasty blah blah blah
                                 </WorkGridItem>
                                 <WorkGridItem id = "pasta" title = "Beef Wellington" thumbnail = {Beef}>

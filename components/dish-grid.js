@@ -14,11 +14,12 @@ transition: all 0.3s ease;
 `
 
 const DishGridItem = ({children, id, src, alt, type, title, rating, ingredients}) => {
+    const textColor = useColorModeValue("#1B1B1B", "#000000")
     return(
         <Box>
                 <NextLink href = {`/dishes/${id}`}>
                     <LinkBox cursor = "pointer">
-                        <MainBox maxW='lg' borderWidth='1px' borderRadius='lg' overflow='hidden' bg = {useColorModeValue("#2C3539", "#F3F2ED")}>
+                        <MainBox maxW='lg' borderWidth='1px' borderRadius='lg' overflow='hidden' bg = {useColorModeValue("#ffced6", "#F3F2ED")}>
                                 <Image src = {src} alt = {alt} />
 
                                 <Box px = "6" mt = "6" mb = "6">
@@ -27,7 +28,7 @@ const DishGridItem = ({children, id, src, alt, type, title, rating, ingredients}
                                         {type}
                                     </Badge>
                                         <Box
-                                            color = {useColorModeValue("white", "black")}
+                                            color = {textColor}
                                             fontFamily = "Creato"
                                             fontSize = {14}
                                             ml='2'
@@ -36,17 +37,17 @@ const DishGridItem = ({children, id, src, alt, type, title, rating, ingredients}
                                         </Box>
                                     </Box>
 
-                                    <Box mt = "1" as = "h2"  fontSize = {28} fontFamily = "Outfit-Medium" lineHeight = "tight" noOfLines = {1} color = {useColorModeValue("white", "black")}>
+                                    <Box mt = "1" as = "h2"  fontSize = {28} fontFamily = "Outfit-Medium" lineHeight = "tight" noOfLines = {1} color = {textColor}>
                                         {title}
                                     </Box>
 
-                                    <Box color = {useColorModeValue("white", "black")} fontFamily = "Zacbel X Medium" noOfLines = {1}>
+                                    <Box color = {textColor} fontFamily = "Zacbel X Medium" noOfLines = {1}>
                                         {ingredients}
                                     </Box>
 
                                     <Box>
 
-                                    <Box color = {useColorModeValue("white", "black")} fontFamily = "Creato" pt = {5} fontSize = {15}>
+                                    <Box color = {textColor} fontFamily = "Poison" pt = {5} fontSize = {15.5} fontWeight = "bold" letterSpacing = {0.5}>
                                         Expertise
                                     </Box>
 
@@ -56,7 +57,7 @@ const DishGridItem = ({children, id, src, alt, type, title, rating, ingredients}
                                             .map((_, i) => (
                                             <Text
                                                 key={i}
-                                                color = {i < rating ? "#004de4" : 'gray.300'}
+                                                color = {i < rating ? "#00256e" : 'gray.300'}
                                                 pr = {0.5}
                                             >
                                                 <FontAwesomeIcon icon = {faCircle} />

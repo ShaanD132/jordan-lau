@@ -11,16 +11,37 @@ const Fonts = () => (
     }
 
     @font-face {
-    font-family: "Bluu Next";
+    font-family: "Galhau";
     src:
         url("/fonts/Galhau_Regular.ttf")
         format("truetype");
     }
 
     @font-face {
+    font-family: "Kunika";
+    src:
+        url("/fonts/Kunika.otf")
+        format("opentype");
+    }
+
+    @font-face {
+    font-family: "altertype";
+    src:
+        url("/fonts/altertype.otf")
+        format("opentype");
+    }
+
+    @font-face {
     font-family: "Creato";
     src:
         url("/fonts/CreatoDisplay-Regular.otf")
+        format("opentype");
+    }
+
+    @font-face {
+    font-family: "Poison";
+    src:
+        url("/fonts/Poison.otf")
         format("opentype");
     }
 
