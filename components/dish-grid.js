@@ -16,7 +16,6 @@ const DishGridItem = ({children, src, alt, type, title, rating, ingredients}) =>
     const textColor = useColorModeValue("#1B1B1B", "#000000")
     return(
         <Box>
-                
                 <MainBox maxW='lg' borderWidth='1px' borderRadius='lg' overflow='hidden' bg = {useColorModeValue("#ffced6", "#F3F2ED")}>
                         <Image src = {src} alt = {alt} placeholder = "blur" />
 
