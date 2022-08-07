@@ -1,6 +1,5 @@
 import Image from "next/image"
-import NextLink from "next/link"
-import {Box, useColorModeValue, Badge, Text, LinkBox} from "@chakra-ui/react"
+import {Box, useColorModeValue, Badge, Text} from "@chakra-ui/react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircle } from "@fortawesome/free-solid-svg-icons"
 import styled from "@emotion/styled"
@@ -13,7 +12,7 @@ transition: all 0.3s ease;
 }
 `
 
-const DishGridItem = ({children, id, src, alt, type, title, rating, ingredients}) => {
+const DishGridItem = ({children, src, alt, type, title, rating, ingredients}) => {
     const textColor = useColorModeValue("#1B1B1B", "#000000")
     return(
         <Box>

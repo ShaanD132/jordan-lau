@@ -1,6 +1,5 @@
-import NextLink from "next/link"
 import Image from "next/image"
-import {Box, Text, LinkBox, Heading} from "@chakra-ui/react"
+import {Box, Text, Heading} from "@chakra-ui/react"
 import {Global} from "@emotion/react"
 import styled from "@emotion/styled"
 import  { motion } from "../node_modules/framer-motion"
@@ -42,7 +41,7 @@ text-align: left;
 margin-top: 85%
 `
 
-export const WorkGridItem = ({ children, id, title , thumbnail}) => (
+export const WorkGridItem = ({ children,  title , thumbnail}) => (
     <Box w = "100%" align = "center"  position = "relative">
         <motion.div initial = {{opacity: 0}} whileInView = {{opacity: 1}} transition = {{duration: 0.5, delay: 0.2}} viewport={{ once: true }}>
             <Box position = "relative" >
