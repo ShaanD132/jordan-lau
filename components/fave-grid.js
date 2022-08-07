@@ -20,7 +20,7 @@ width: 100%;
 .dishes-title {
     transition: all 0.3s ease-in-out;
     color: rgba(255, 255, 255, 1);
-    text-shadow: 0em 0em 1rem black;
+    text-shadow: 0em 0em 4px black;
 }
 
 &:hover {
@@ -53,8 +53,8 @@ export const WorkGridItem = ({ children, id, title , thumbnail}) => (
 
                     <DishesBox position = "absolute">
                         <DishesTextContainer px = {3}>
-                            <Heading as = "h2" fontSize = {{base: 35, sm: 40}} fontFamily = "Outfit-Medium" mb = {2} className = "dishes-title" noOfLines = {1}>
-                                {title}
+                            <Heading as = "h2" fontSize = {{base: 35, sm: 40}} fontFamily = "Outfit-Medium" mb = {2} noOfLines = {1}>
+                                <Text className = "dishes-title">{title}</Text>
                             </Heading>
                             <Box className = "dishes-text">
                                 <Text color = "white" px = {3} fontFamily = "Zacbel X Medium" fontSize = {{base: 16, sm: 18}}> {children} </Text>
