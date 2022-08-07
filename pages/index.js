@@ -17,7 +17,7 @@ const Page = () => {
     transition: all 0.3s ease;
     &:hover{
         transform: scale(1.3);
-        color: #126180;
+        color: #9fdaf2;
     }`
     const SocialLight = styled.a`
     transition: all 0.3s ease;
