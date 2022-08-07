@@ -33,7 +33,7 @@ const Page = () => {
                 <Box mt = {14}>
                     <Section delay = {0.1}>
                         <Heading as = "h2"  fontSize = {50} variant = "page-title">
-                            Bio - Vercel
+                            Bio
                         </Heading>
 
                         <Box borderRadius = "lg"  p = {2} bg = {useColorModeValue("#E4EDFF", "#F5F5F5")} mt = {12} mb = {5} mx = {{base: 1, md: 5}} display = {{base: "block", md: "flex"}} alignItems = "center">
