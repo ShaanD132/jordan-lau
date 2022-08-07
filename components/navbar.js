@@ -92,12 +92,15 @@ const Navbar = props => {
                             <MenuButton as = {IconButton} icon = {<HamburgerIcon/>} variant = "outline" aria-label = "Options" />
                             <MenuList bg = {useColorModeValue("#F0E68C", "#555555")}>
                                 <NextLink href = "/" passHref>
-                                    <MenuItem as = {Link}>Resume</MenuItem>
+                                    <MenuItem as = {Link}>About Me</MenuItem>
                                 </NextLink>
-                                <NextLink href = "/works" passHref>
+                                <NextLink href = "/dishes" passHref>
                                     <MenuItem as = {Link}>Dishes</MenuItem>
                                 </NextLink>
-                                <NextLink href = "/posts" passHref>
+                                <NextLink href = "/resume" passHref>
+                                    <MenuItem as = {Link}>Resume</MenuItem>
+                                </NextLink>
+                                <NextLink href = "/contact" passHref>
                                     <MenuItem as = {Link}>Contact Me</MenuItem>
                                 </NextLink>
                             </MenuList>

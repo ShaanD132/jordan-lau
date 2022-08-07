@@ -44,7 +44,7 @@ margin-top: 85%
 
 export const WorkGridItem = ({ children, id, title , thumbnail}) => (
     <Box w = "100%" align = "center"  position = "relative">
-        <motion.div initial = {{opacity: 0}} whileInView = {{opacity: 1}} transition = {{duration: 0.8, delay: 0.5}}>
+        <motion.div initial = {{opacity: 0}} whileInView = {{opacity: 1}} transition = {{duration: 0.5, delay: 0.2}} viewport={{ once: true }}>
             <NextLink href = {`/dishes/${id}`}>
                 <LinkBox cursor = "pointer">
                     <Box position = "relative" >

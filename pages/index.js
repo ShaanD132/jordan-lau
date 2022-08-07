@@ -66,7 +66,7 @@ const Page = () => {
                     </Section>
 
                     <Section delay = {0.3}>
-                        <Box mt = {40}>
+                        <Box mt = {{base: 24, md: 40}}>
                             <Heading as = "h1" variant = "section-title">
                                 My Best Dishes
                             </Heading>
