@@ -17,13 +17,13 @@ const Page = () => {
     transition: all 0.3s ease;
     &:hover{
         transform: scale(1.3);
-        color: #C6E6FB;
+        color: #126180;
     }`
     const SocialLight = styled.a`
     transition: all 0.3s ease;
     &:hover{
         transform: scale(1.3);
-        color: #b2d8d8;
+        color: #B65FCF;
     }`
 
     const SocialLink = useColorModeValue(SocialLight, SocialDark)
