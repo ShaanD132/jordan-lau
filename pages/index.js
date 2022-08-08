@@ -6,11 +6,11 @@ import Link from "next/link"
 import Section from "../components/layouts/section"
 import styled from "@emotion/styled"
 import { WorkGridItem } from "../components/fave-grid"
-import Pasta from "../public/images/pasta.jpeg"
-import Beef from "../public/images/beef.jpeg"
-import Butter from "../public/images/butter.jpeg"
-import Rice from "../public/images/rice.jpeg"
 import Layout from "../components/layouts/article"
+import LauDish1 from "../public/images/laudish1.jpg"
+import LauDish2 from "../public/images/laudish2.jpg"
+import LauDish3 from "../public/images/laudish3.jpg"
+import LauDish4 from "../public/images/laudish4.jpg"
 
 const Page = () => {
     const SocialDark = styled.a`
@@ -48,13 +48,13 @@ const Page = () => {
                         </Box>
                     </Section>
 
-                    <Section delay = {0.2}>
+                    <Section delay = {0.3}>
                         <Box mt = {20}>
                             <Heading as = "h1" variant = "section-title">
                                 My Links
                             </Heading>
                             <Box align = "center">
-                                <Flex  mt = {12} maxW = "container.md" fontSize = {{base: 40, md: 45}} px = {{base: 10, lg: 0}}>
+                                <Flex  mt = {12} maxW = "container.md" fontSize = {{base: 40, md: 50}} px = {{base: 10, lg: 0}}>
                                     <SocialLink target = "__blank" href = "https://www.linkedin.com/in/jordan-gabriel-lau-hiu-hoong-330235232/"><FontAwesomeIcon  icon = {faLinkedin} /></SocialLink>
                                     <Spacer/>
                                     <SocialLink target = "__blank" href = "https://www.instagram.com/this_final/">  <FontAwesomeIcon icon = {faInstagram} />  </SocialLink>
@@ -65,22 +65,22 @@ const Page = () => {
                         </Box>
                     </Section>
 
-                    <Section delay = {0.3}>
+                    <Section delay = {0.5}>
                         <Box mt = {{base: 24, md: 40}}>
                             <Heading as = "h1" variant = "section-title">
-                                My Best Dishes
+                                Special Dishes
                             </Heading>
                             <SimpleGrid columns = {[1, null, 2]} spacing = {{base: "50px", md: "50px"}}  mt = {10} alignItems = "center">
-                                <WorkGridItem id = "pasta" title = "Spaghetti Bolognese" thumbnail = {Pasta}>
+                                <WorkGridItem id = "pasta" title = "Fried Vegetable Salad" thumbnail = {LauDish1}>
                                     Sample Text, I love cooking, this dish is pretty tasty blah blah blah
                                 </WorkGridItem>
-                                <WorkGridItem id = "pasta" title = "Beef Wellington" thumbnail = {Beef}>
+                                <WorkGridItem id = "pasta" title = "Fried Rice" thumbnail = {LauDish2}>
                                     Sample Text, I love cooking, this dish is pretty tasty blah blah blah
                                 </WorkGridItem>
-                                <WorkGridItem id = "pasta" title = "Butter Chicken" thumbnail = {Butter}>
+                                <WorkGridItem id = "pasta" title = "Seasoned Chicken" thumbnail = {LauDish3}>
                                     Sample Text, I love cooking, this dish is pretty tasty blah blah blah
                                 </WorkGridItem>
-                                <WorkGridItem id = "pasta" title = "Fried Rice" thumbnail = {Rice}>
+                                <WorkGridItem id = "pasta" title = "Spaghetti with Cheese" thumbnail = {LauDish4}>
                                     Sample Text, I love cooking, this dish is pretty tasty blah blah blah
                                 </WorkGridItem>
                             </SimpleGrid>

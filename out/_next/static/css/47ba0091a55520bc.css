@@ -1,0 +1,1 @@
+.scroll-bar{position:fixed;top:6.5%;left:0;right:0;height:10px;transform-origin:0}@media (max-width:48em){.scroll-bar{height:12px;top:7.2%}}.email-input,.message{padding:3px 8px;width:250px}.email-input,.message{display:block;margin-top:2.5em;border-radius:3px;font-size:18px}.message{width:325px;height:120px;padding:8px 5px}.btn{display:block;margin-top:2.5em}

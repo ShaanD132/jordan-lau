@@ -63,7 +63,7 @@ const Resume = () => {
                         </SectionBox>
                     </Section>
 
-                    <Section delay = {0.6}>
+                    <Section delay = {0.7}>
                         <SectionBox mt = {12} px = {7}>
                             <Box className = "resume-box">
                                 <Heading as = "h2" variant = "sub-title" fontWeight = "normal">
@@ -79,7 +79,7 @@ const Resume = () => {
                         </SectionBox>
                     </Section>
 
-                    <Section delay = {0.7}>
+                    <Section delay = {0.8}>
                         <SectionBox mt = {12} px = {7}>
                             <Box className = "resume-box">
                                 <Heading as = "h2" variant = "sub-title" fontWeight = "normal">
@@ -97,7 +97,7 @@ const Resume = () => {
                         </SectionBox>
                     </Section>
 
-                    <Section delay = {0.8}>
+                    <Section delay = {0.9}>
                         <SectionBox mt = {12} px = {7}>
                             <Box className = "resume-box">
                                 <Heading as = "h2" variant = "sub-title" fontWeight = "normal">
@@ -113,7 +113,7 @@ const Resume = () => {
                         </SectionBox>
                     </Section>
 
-                    <Section delay = {0.9}>
+                    <Section delay = {1}>
                         <SectionBox mt = {12} px = {7}>
                             <Box className = "resume-box">
                                 <Heading as = "h2" variant = "sub-title" fontWeight = "normal">

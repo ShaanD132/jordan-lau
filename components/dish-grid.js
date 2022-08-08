@@ -12,11 +12,11 @@ transition: all 0.3s ease;
 }
 `
 
-const DishGridItem = ({children, src, alt, type, title, rating, ingredients}) => {
+const DishGridItem = ({children, src, alt, type, difficulty, rating, ingredients}) => {
     const textColor = useColorModeValue("white", "#000000")
     return(
         <Box>
-                <MainBox maxW='lg' borderWidth='1px' borderRadius='lg' overflow='hidden' bg = {useColorModeValue("#a61130", "#F3F2ED")}>
+                <MainBox maxW='lg' borderWidth='1px' borderRadius='lg' overflow='hidden' bg = {useColorModeValue("#1b1b1b", "#F3F2ED")}>
                         <Image src = {src} alt = {alt} placeholder = "blur" />
 
                         <Box px = "6" mt = "6" mb = "6">
@@ -30,13 +30,13 @@ const DishGridItem = ({children, src, alt, type, title, rating, ingredients}) =>
                                     fontSize = {14}
                                     ml='2'
                                 >
-                                    {children}
+                                    {difficulty}
                                 </Box>
                             </Box>
 
-                            <Box mt = "1" as = "h2"  fontSize = {28} fontFamily = "Outfit-Medium" lineHeight = "tight" noOfLines = {1} color = {textColor}>
-                                {title}
-                            </Box>
+                                <Box mt = "1" as = "h2"  fontSize = {28} fontFamily = "Outfit-Medium" noOfLines = {2} lineHeight = "tight" color = {textColor}>
+                                    {children}
+                                </Box>
 
                             <Box color = {textColor} fontSize = {12} fontFamily = "Zacbel X Medium" noOfLines = {1}>
                                 {ingredients}
@@ -54,8 +54,8 @@ const DishGridItem = ({children, src, alt, type, title, rating, ingredients}) =>
                                     .map((_, i) => (
                                     <Text
                                         key={i}
-                                        color = {i < rating ? "#002e88" : 'gray.300'}
-                                        pr = {0.5}
+                                        color = {i < rating ? "#0049d6" : 'gray.300'}
+                                        pr = {0.45}
                                     >
                                         <FontAwesomeIcon icon = {faCircle} />
                                     </Text> )
