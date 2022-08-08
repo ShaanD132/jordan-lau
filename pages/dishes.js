@@ -16,20 +16,20 @@ const Dishes = () => {
                 <Box mt = {20}>
                     <SimpleGrid ml = {{base: 0, sm: 10, md: 0}} columns = {[1, 1, 2, 3]} spacing = {{base: "50px", md: "55px"}} mt = {10} alignItems = "center">
                         <Section delay = {0.1}>
-                            <DishGridItem src = {LauDish1}  type = "American" difficulty = "Intermediate" rating = {4} ingredients = "Beef Steak, Tomato, Lettuce">
-                                Fried Vegetable Salad
-                            </DishGridItem>
-                        </Section>
-
-                        <Section delay = {0.2}>
                             <DishGridItem src = {LauDish2}  type = "Mediterranean " difficulty = "Amateur" rating = {5} ingredients = "Couscous, Tomato, Lettuce">
                                 Fried <br /> Rice
                             </DishGridItem>
                         </Section>
 
-                        <Section delay = {0.3}>
+                        <Section delay = {0.2}>
                             <DishGridItem src = {LauDish3} type = "Italian" difficulty = "Advanced" rating = {5} ingredients = "Spaghetti, Pasta Sauce, Spring Onion">
                                 Seasoned <br /> Chicken
+                            </DishGridItem>
+                        </Section>
+
+                        <Section delay = {0.3}>
+                            <DishGridItem src = {LauDish1}  type = "American" difficulty = "Intermediate" rating = {4} ingredients = "Beef Steak, Tomato, Lettuce">
+                                Fried Vegetable Salad
                             </DishGridItem>
                         </Section>
 
