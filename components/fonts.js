@@ -9,6 +9,13 @@ const Fonts = () => (
         url("/fonts/Outfit-Medium.otf")
         format("opentype");
     }
+    
+    @font-face {
+    font-family: "Outfit-Bold";
+    src:
+        url("/fonts/Outfit-Bold.otf")
+        format("opentype");
+    }
 
     @font-face {
     font-family: "Galhau";
@@ -35,6 +42,13 @@ const Fonts = () => (
     font-family: "Creato";
     src:
         url("/fonts/CreatoDisplay-Regular.otf")
+        format("opentype");
+    }
+    
+    @font-face {
+    font-family: "Creato Bold";
+    src:
+        url("/fonts/CreatoDisplay-Bold.otf")
         format("opentype");
     }
 

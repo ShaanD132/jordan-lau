@@ -1,9 +1,9 @@
 .scroll-bar {
     position: fixed;
-    top: 6.5%;
+    top: 6%;
     left: 0;
     right: 0;
-    height: 10px;
+    height: 15px;
     transform-origin: 0%;
 }
 

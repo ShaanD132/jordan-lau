@@ -26,6 +26,13 @@ const Page = () => {
         color: #B65FCF;
     }`
 
+    const BoldText = styled.p`
+    display: inline;
+    font-weight: normal;
+    letter-spacing: normal;
+    font-family: "Creato Bold"
+    `
+
     const SocialLink = useColorModeValue(SocialLight, SocialDark)
     return(
         <Layout>
@@ -38,9 +45,9 @@ const Page = () => {
 
                         <Box borderRadius = "lg"  p = {2} bg = {useColorModeValue("#E4EDFF", "#F5F5F5")} mt = {12} mb = {5} mx = {{base: 1, md: 5}} display = {{base: "block", md: "flex"}} alignItems = "center">
                             <Box px = {1} py = {1} align = "left" w = {{base: "100%", md: "75%"}} my = {3}>
-                                <Text lineHeight={{base: 1.3, md: 1.8, lg: 2}} p = {3} color = {useColorModeValue("#010127", "black")} fontFamily = "Creato" fontSize = {{base: 19, md: 20}} align = {{base: "center", md: "left"}}>
-                                Hello, I&apos;m <b>Jordan Lau</b>: a Mauritian Chef based in <b>Niagara-on-the-Lake</b>. I&apos;m open to learning all types of cuisine and currently <b>looking for challenging work experiences</b> to broaden my horizons.
-                                </Text>
+                                <Heading as = "h1" letterSpacing = "normal" fontWeight = "normal" lineHeight={{base: 1.3, md: 1.8, lg: 2}} p = {3} color = {useColorModeValue("#010127", "black")} fontFamily = "Creato" fontSize = {{base: 19, md: 20}} align = {{base: "center", md: "left"}}>
+                                Hello, I&apos;m <BoldText>Jordan Lau</BoldText>: a Mauritian Chef based in <BoldText>Niagara-on-the-Lake</BoldText>. I&apos;m open to learning all types of cuisine and currently <BoldText>looking for challenging work experiences</BoldText> to broaden my horizons.
+                                </Heading>
                             </Box>
                             <Box h = "100%" align = "center">
                                 <Image borderRadius = {8} h = {{base: 200, md: 150, lg: 200}} w = {{base: 200, md: 150, lg: 200}} src = "images/jordan-profile2.png" alt = "Profile Image" my = {3} ml = {5}/>

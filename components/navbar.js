@@ -29,7 +29,7 @@ const LinkItem = ({href, path, children}) => {
             borderRadius = {12}
             bg = {active ? "accentColor" : undefined}
             color = {active ? "#202023" : inactiveColor}
-            fontFamily = "Outfit Medium"
+            fontFamily = "Outfit-Medium"
             >
                 {children}
             </Link>
