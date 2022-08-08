@@ -1,0 +1,55 @@
+.message, .email-input {
+    display: block;
+    margin-top: 2.5em;
+    background-color: white;
+    color: black;
+    border: 3px solid #9fdaf2;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 3px;
+}
+
+.message {
+    display: block;
+    margin-top: 2.5em;
+    background-color: white;
+    color: black;
+    border: 3px solid #9fdaf2;
+    border-radius: 3px;
+    font-size: 18px;
+    width: 300px;
+    height: 100px;
+    padding: 3px;
+}
+
+.message::placeholder {
+    color: #696969;
+    opacity: 1;
+}
+
+.email-input::placeholder {
+    color: #696969;
+    opacity: 1;
+}
+
+.message:-ms-input-placeholder {
+    color: #696969;
+}
+
+.email-input:-ms-input-placeholder {
+    color: #696969;
+}
+
+.message::-ms-input-placeholder {
+    color: #696969;
+}
+
+.email-input::-ms-input-placeholder {
+    color: #696969;
+}
+
+
+.btn {
+    display: block;
+    margin-top: 2.5em;
+}

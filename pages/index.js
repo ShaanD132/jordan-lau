@@ -59,7 +59,7 @@ const Page = () => {
                                     <Spacer/>
                                     <SocialLink target = "__blank" href = "https://www.instagram.com/this_final/">  <FontAwesomeIcon icon = {faInstagram} />  </SocialLink>
                                     <Spacer/>
-                                    <Link href = "/email"><SocialLink><FontAwesomeIcon icon = {faEnvelopeOpen} /></SocialLink></Link>
+                                    <Link href = "/contact"><SocialLink><FontAwesomeIcon icon = {faEnvelopeOpen} /></SocialLink></Link>
                                 </Flex>
                             </Box>
                         </Box>

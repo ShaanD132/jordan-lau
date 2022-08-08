@@ -13,10 +13,10 @@ transition: all 0.3s ease;
 `
 
 const DishGridItem = ({children, src, alt, type, title, rating, ingredients}) => {
-    const textColor = useColorModeValue("#1B1B1B", "#000000")
+    const textColor = useColorModeValue("white", "#000000")
     return(
         <Box>
-                <MainBox maxW='lg' borderWidth='1px' borderRadius='lg' overflow='hidden' bg = {useColorModeValue("#ffced6", "#F3F2ED")}>
+                <MainBox maxW='lg' borderWidth='1px' borderRadius='lg' overflow='hidden' bg = {useColorModeValue("#a61130", "#F3F2ED")}>
                         <Image src = {src} alt = {alt} placeholder = "blur" />
 
                         <Box px = "6" mt = "6" mb = "6">
@@ -54,7 +54,7 @@ const DishGridItem = ({children, src, alt, type, title, rating, ingredients}) =>
                                     .map((_, i) => (
                                     <Text
                                         key={i}
-                                        color = {i < rating ? "#00256e" : 'gray.300'}
+                                        color = {i < rating ? "#002e88" : 'gray.300'}
                                         pr = {0.5}
                                     >
                                         <FontAwesomeIcon icon = {faCircle} />
