@@ -28,7 +28,7 @@ const Dishes = () => {
                         </Section>
 
                         <Section delay = {0.1}>
-                            <DishGridItem src = {Pasta} id = "spaghetti" type = "Italian" title = "Spaghetti Bolognese" rating = {4} ingredients = "Spaghetti, Pasta Sauce, Barley">
+                            <DishGridItem src = {Pasta} id = "spaghetti" type = "Italian" title = "Spaghetti Bolognese" rating = {4} ingredients = "Spaghetti, Pasta Sauce, Spring Onion">
                                 Advanced
                             </DishGridItem>
                         </Section>
