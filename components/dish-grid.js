@@ -38,7 +38,7 @@ const DishGridItem = ({children, src, alt, type, title, rating, ingredients}) =>
                                 {title}
                             </Box>
 
-                            <Box color = {textColor} fontFamily = "Zacbel X Medium" noOfLines = {1}>
+                            <Box color = {textColor} fontSize = {12} fontFamily = "Zacbel X Medium" noOfLines = {1}>
                                 {ingredients}
                             </Box>
 
