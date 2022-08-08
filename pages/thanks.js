@@ -16,7 +16,7 @@ const Thanks = () => {
                                     Thank you for your email
                                 </Heading>
                                 <Text  align = "justify" px = {10} py = {7} fontSize = {22} fontFamily = "altertype">
-                                    I'll do my best to reply to your email within 2-3 business days. If your message is urgent, please contact me on one of my other social links.
+                                    I&apos;ll do my best to reply to your email within 2-3 business days. If your message is urgent, please contact me on one of my other social links.
                                 </Text>
                             </motion.div>
                     </Box>
