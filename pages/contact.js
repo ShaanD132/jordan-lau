@@ -20,7 +20,7 @@ const Contact = () => {
                             <input type="text" name="Name" placeholder = "Name" className = "email-input" required color = "black"/>
                             <textarea type="text" name="Message" className = "message" placeholder = "Write Message" required></textarea>
                             <input type = "hidden" name = "_next" value = "http://jordan-lau.vercel.app/thanks"/>
-                            <Button type="submit" backgroundColor = {btnBgColor} color = "white" _hover={{ bg: btnHoverBgColors, color: "#F3F2ED"}}  className = "btn font-out" >Send Email</Button>
+                            <Button type="submit" fontWeight = "normal" fontSize = {18} backgroundColor = {btnBgColor} color = "white" _hover={{ bg: btnHoverBgColors, color: "#F3F2ED"}}  className = "btn font-out" >Send Email</Button>
                         </form>
                     </Box>
                 </Box>
