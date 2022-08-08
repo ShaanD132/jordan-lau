@@ -1,4 +1,4 @@
-import { Container, Box, Heading, Image, useColorModeValue, Text, Flex, Spacer, SimpleGrid } from "@chakra-ui/react"
+import { Container, Box, Heading, Image, useColorModeValue, Flex, Spacer, SimpleGrid } from "@chakra-ui/react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faInstagram } from "@fortawesome/free-brands-svg-icons"
 import { faEnvelopeOpen } from "@fortawesome/free-solid-svg-icons"
