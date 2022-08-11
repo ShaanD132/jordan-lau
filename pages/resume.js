@@ -52,12 +52,12 @@ const Resume = () => {
                                 <Heading as = "h2" variant = "sub-title" fontWeight = "normal">
                                     skills
                                 </Heading>
-                                <Box fontSize = {{base: 18, md: 22}} fontFamily = "altertype" mt = {3} px = {8}>
-                                    Communication Skills <br />
-                                    Customer Service <br />
-                                    Interpersonal Skills<br />
-                                    Sales Skills<br />
-                                    MS Office Skills<br />
+                                <Box fontSize = {{base: 18, md: 22}} fontFamily = "altertype" mt = {3} px = {8} lineHeight = {{base: 1.3}}>
+                                    Communication Skills <br /><br />
+                                    Customer Service <br /><br />
+                                    Interpersonal Skills<br /><br />
+                                    Sales Skills<br /><br />
+                                    MS Office Skills<br /><br />
                                 </Box>
                             </Box>
                         </SectionBox>
@@ -69,11 +69,11 @@ const Resume = () => {
                                 <Heading as = "h2" variant = "sub-title" fontWeight = "normal">
                                     traits
                                 </Heading>
-                                <Box fontSize = {{base: 18, md: 22}} fontFamily = "altertype" mt = {3} px = {8}>
-                                    Persuasive <br />
-                                    Adaptable <br />
-                                    Ability to work independently <br />
-                                    Flexible <br />
+                                <Box fontSize = {{base: 18, md: 22}} fontFamily = "altertype" mt = {3} px = {8} lineHeight = {{base: 1.3}}>
+                                    Persuasive <br /><br />
+                                    Adaptable <br /><br />
+                                    Ability to work independently <br /><br />
+                                    Flexible <br /><br />
                                 </Box>
                             </Box>
                         </SectionBox>
@@ -85,7 +85,7 @@ const Resume = () => {
                                 <Heading as = "h2" variant = "sub-title" fontWeight = "normal">
                                     experience
                                 </Heading>
-                                <Box fontSize = {{base: 18, md: 22}} fontFamily = "altertype" mt = {{base: 3, md: 6}} px = {8} lineHeight = {{base: 2, md:1}}>
+                                <Box fontSize = {{base: 18, md: 22}} fontFamily = "altertype" mt = {{base: 3, md: 6}} px = {8} lineHeight = {{base: 2, md: 1.5}}>
                                     Topelec LTD, Mauritius - Store Manager <br /><br />
                                     Topelec LTD, Mauritius - Sales Associate<br /><br />
                                     Topelec LTD, Mauritius - Delivery Driver<br /><br />
@@ -103,7 +103,7 @@ const Resume = () => {
                                 <Heading as = "h2" variant = "sub-title" fontWeight = "normal">
                                     education
                                 </Heading>
-                                <Box fontSize = {{base: 18, md: 22}} fontFamily = "altertype" mt = {{base: 3, md: 6}} px = {8} lineHeight = {{base: 2, md:1}}>
+                                <Box fontSize = {{base: 18, md: 22}} fontFamily = "altertype" mt = {{base: 3, md: 6}} px = {8} lineHeight = {{base: 2, md: 1.5}}>
                                     Niagara College, Ontario - Culinary Management Diploma <br /><br />
                                     <br />
                                     Le Bocage (LBIS), Mauritius - IGCSE Certificate <br /><br />
@@ -119,7 +119,7 @@ const Resume = () => {
                                 <Heading as = "h2" variant = "sub-title" fontWeight = "normal">
                                     other
                                 </Heading>
-                                <Box fontSize = {{base: 18, md: 22}} fontFamily = "altertype" mt = {{base: 3, md: 6}} px = {8} lineHeight = {{base: 2, md:1}}>
+                                <Box fontSize = {{base: 18, md: 22}} fontFamily = "altertype" mt = {{base: 3, md: 6}} px = {8} lineHeight = {{base: 2, md: 1.5}}>
                                     Duke of Edinburgh Award Awardee - Bronze, Silver <br /><br />
                                     <br />
                                     Native Mauritian Creole Speaker<br /><br />
