@@ -52,7 +52,7 @@ const Resume = () => {
                                 <Heading as = "h2" variant = "sub-title" fontWeight = "normal">
                                     skills
                                 </Heading>
-                                <Box fontSize = {{base: 18, md: 22}} fontFamily = "altertype" mt = {3} px = {8} lineHeight = {{base: 1.3}}>
+                                <Box fontSize = {{base: 18, md: 22}} fontFamily = "altertype" mt = {6} px = {8} lineHeight = {{base: 1.3}}>
                                     Communication Skills <br /><br />
                                     Customer Service <br /><br />
                                     Interpersonal Skills<br /><br />
@@ -64,12 +64,12 @@ const Resume = () => {
                     </Section>
 
                     <Section delay = {0.7}>
-                        <SectionBox mt = {12} px = {7}>
+                        <SectionBox mt = {14} px = {7}>
                             <Box className = "resume-box">
                                 <Heading as = "h2" variant = "sub-title" fontWeight = "normal">
                                     traits
                                 </Heading>
-                                <Box fontSize = {{base: 18, md: 22}} fontFamily = "altertype" mt = {3} px = {8} lineHeight = {{base: 1.3}}>
+                                <Box fontSize = {{base: 18, md: 22}} fontFamily = "altertype" mt = {6} px = {8} lineHeight = {{base: 1.3}}>
                                     Persuasive <br /><br />
                                     Adaptable <br /><br />
                                     Ability to work independently <br /><br />
@@ -80,7 +80,7 @@ const Resume = () => {
                     </Section>
 
                     <Section delay = {0.8}>
-                        <SectionBox mt = {12} px = {7}>
+                        <SectionBox mt = {14} px = {7}>
                             <Box className = "resume-box">
                                 <Heading as = "h2" variant = "sub-title" fontWeight = "normal">
                                     experience
@@ -98,13 +98,13 @@ const Resume = () => {
                     </Section>
 
                     <Section delay = {0.9}>
-                        <SectionBox mt = {12} px = {7}>
+                        <SectionBox mt = {14} px = {7}>
                             <Box className = "resume-box">
                                 <Heading as = "h2" variant = "sub-title" fontWeight = "normal">
                                     education
                                 </Heading>
                                 <Box fontSize = {{base: 18, md: 22}} fontFamily = "altertype" mt = {{base: 3, md: 6}} px = {8} lineHeight = {{base: 2, md: 1.5}}>
-                                    Niagara College, Ontario - Culinary Management Diploma <br /><br />
+                                    Current Studying at Niagara College, Ontario - Culinary Management Diploma <br /><br />
                                     <br />
                                     Le Bocage (LBIS), Mauritius - IGCSE Certificate <br /><br />
                                     Le Bocage (LBIS), Mauritius - MYP Certificate <br /><br />
