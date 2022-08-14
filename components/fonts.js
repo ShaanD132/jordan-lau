@@ -25,13 +25,6 @@ const Fonts = () => (
     }
 
     @font-face {
-    font-family: "Kunika";
-    src:
-        url("/fonts/Kunika.otf")
-        format("opentype");
-    }
-
-    @font-face {
     font-family: "altertype";
     src:
         url("/fonts/altertype.otf")
